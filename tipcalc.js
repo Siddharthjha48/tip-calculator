@@ -6,7 +6,7 @@ let total = document.getElementById("total");
 function calculateTotal() {
   let billAmount = bill.value;
   let tipamount = tip.value;
-  let totalvalue = '$' + parseFloat(billAmount)+parseFloat(tipamount);
+  let totalvalue = '$' + (parseFloat(billAmount)+parseFloat(tipamount));
 
   total.innerText = totalvalue;
 
